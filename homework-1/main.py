@@ -49,4 +49,3 @@ with psycopg2.connect(**conn_params) as conn:
                 ))
 
 conn.close()
-
